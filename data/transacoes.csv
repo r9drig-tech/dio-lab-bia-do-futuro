@@ -1,16 +1,21 @@
 data,descricao,categoria,valor,tipo
-2004-01-01,Auxílio Formação (Início Base Santos),contrato_base,5000.00,entrada
-2006-03-01,Bônus de Permanência (Recusa ao Real Madrid),investimento_base,1000000.00,entrada
+2004-01-01,Auxílio Formação Santos,contrato_base,5000.00,entrada
+2006-03-01,Bônus de Permanência (Recusa ao Real Madrid),investimento_base,1000000.00,recusado
 2008-01-01,Contrato de Formação Avançado,contrato_base,240000.00,entrada
 2009-02-01,Primeiro Contrato Profissional Santos,contrato_profissional,1000000.00,entrada
+2010-08-23,Chelsea,transferencia,30000000.00,recusado
+2011-06-15,Real Madrid,transferencia,45000000.00,recusado
 2011-11-09,Renovação de Contrato Santos,renovacao,2000000.00,entrada
 2013-06-01,Saída Santos para Barcelona (Venda),transferencia,88400000.00,saida
 2013-07-01,Contrato Inicial Barcelona,contrato_profissional,5000000.00,entrada
+2016-06-15,Contrato Manchester United,salario_anual,25000000.00,recusado
 2016-07-01,Renovação de Contrato Barcelona,renovacao,9000000.00,entrada
 2017-08-03,Saída Barcelona para PSG (Multa Rescisória),transferencia,222000000.00,saida
 2017-08-15,Contrato Inicial PSG,contrato_profissional,30000000.00,entrada
+2019-08-30,Retorno Barcelona,transferencia,170000000.00,recusado
 2021-05-01,Renovação de Contrato PSG,renovacao,36000000.00,entrada
+2022-07-01,Contrato Newcastle,transferencia,100000000.00,recusado
 2023-08-15,Saída PSG para Al-Hilal (Venda),transferencia,90000000.00,saida
 2023-09-01,Contrato Inicial Al-Hilal,contrato_profissional,160000000.00,entrada
 2025-01-01,Saída Al-Hilal (Fim de Contrato),transferencia,0.00,saida
-2025-01-01,Contrato Santos (Novo Contrato),contrato_profissional,1500000.00,entrada
+2025-01-01,Contrato Inicial Santos,contrato_profissional,1500000.00,entrada

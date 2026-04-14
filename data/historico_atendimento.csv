@@ -1,14 +1,15 @@
 data,canal,tema,resumo,resolvido
-2006-03-01,reuniao,Recusa Real Madrid,Jogador recusou contrato aos 14 anos após testes na Espanha,sim
-2010-08-23,coletiva,Recusa Chelsea,Santos e Neymar anunciaram a recusa da proposta de 30M de euros,sim
-2011-06-15,reuniao,Recusa Real Madrid,Recusou proposta maior do Real para aguardar o Barcelona,sim
-2011-11-09,reuniao,Renovação Santos,Primeira grande renovação profissional para jogar o Mundial,sim
-2013-05-25,anuncio,Transferência Barcelona,Fechamento de contrato histórico com o clube catalão,sim
-2016-06-15,reuniao,Recusa Man. United,Recusou oferta da Premier League para renovar com o Barça,sim
+2006-03-01,reuniao,Contrato Real Madrid,Jogador recusou contrato aos 14 anos após testes na Espanha,sim
+2010-08-23,coletiva,Contrato Chelsea,Santos e Neymar anunciaram a recusa da proposta de 30M de euros,sim
+2011-06-15,reuniao,Contrato Real Madrid, Recusou proposta,sim
+2011-11-09,reuniao,Renovação Santos,Extensão do vínculo para garantir a permanência até a Copa de 2014,sim
+2013-05-25,anuncio,Transferência Barcelona,Fechamento de contrato histórico,sim
+2016-06-15,reuniao,Contrato Man. United,Recusou oferta da Premier League,sim
 2016-07-01,reuniao,Renovação Barcelona,Extensão de contrato após conquista da Champions League,sim
-2017-08-03,notificacao,Transferência PSG,Pagamento de multa recorde e encerramento de ciclo no Barça,sim
-2019-08-30,reuniao,Recusa Barcelona,PSG barrou o retorno do jogador ao clube espanhol,sim
+2017-08-03,notificacao,Transferência PSG,Decidiu aceitar o projeto do PSG apos busca por protagonismo e divergencias no Barca,sim
+2019-08-30,reuniao,Contrato Barcelona,PSG recusou propostas de retorno do atleta ao Barcelona,sim
 2021-05-01,reuniao,Renovação PSG,Extensão do vínculo em Paris por mais quatro temporadas,sim
-2022-07-01,reuniao,Recusa Newcastle,Recusou projeto de novo rico da Inglaterra para seguir no PSG,sim
-2023-08-15,anuncio,Transferência Al-Hilal,Aceitou proposta recorde do futebol saudita,sim
-2025-01-01,reuniao,Retorno ao Santos,Reunião de acerto para volta à Vila Belmiro,sim
+2022-07-01,reuniao,Contrato Newcastle,Priorizou a permanencia na Franca e recusou investida do projeto ingles,sim
+2023-08-15,anuncio,Transferência Al-Hilal,Aceitou proposta recorde apos PSG sinalizar fim de ciclo e mudanca de projeto,sim
+2025-12-20,anuncio, Fim de Contrato, Al-Hilal optou pelo encerramento devido ao historico de lesao e longo tempo de recuperacao, sim
+2025-01-01,reuniao,Contrato Santos,Reunião de acerto para volta so Santos ,sim

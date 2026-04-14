@@ -1,15 +1,16 @@
 data,descricao,categoria,valor,tipo
-2009-01-01,Contrato Profissional Inicial (Santos),salario,1000000.00,entrada
-2011-11-09,Renovação Contrato Santos,salario,2000000.00,entrada
-2012-05-10,Compra de Iate (Nadine),patrimonio,15000000.00,saida
-2013-06-01,Transferência Santos para Barcelona,transferencia,88400000.00,entrada
-2013-07-01,Contrato Inicial Barcelona,salario,5000000.00,entrada
-2015-10-20,Manutenção Jato Particular,logistica,500000.00,saida
-2016-07-01,Renovação Barcelona,salario,9000000.00,entrada
-2017-08-03,Transferência Barcelona para PSG,transferencia,222000000.00,entrada
-2018-01-15,Mansão em Mangaratiba,patrimonio,28000000.00,saida
-2021-05-01,Renovação PSG,salario,36000000.00,entrada
-2023-08-15,Transferência PSG para Al-Hilal,transferencia,90000000.00,entrada
-2023-12-01,Investimento Instituto NJR,social,2000000.00,saida
-2024-06-10,Staff e Segurança (Anual),operacional,5000000.00,saida
-2025-01-01,Retorno ao Santos,salario,1500000.00,entrada
+2004-01-01,Auxílio Formação (Início Base Santos),contrato_base,5000.00,entrada
+2006-03-01,Bônus de Permanência (Recusa ao Real Madrid),investimento_base,1000000.00,entrada
+2008-01-01,Contrato de Formação Avançado,contrato_base,240000.00,entrada
+2009-02-01,Primeiro Contrato Profissional Santos,contrato_profissional,1000000.00,entrada
+2011-11-09,Renovação de Contrato Santos,renovacao,2000000.00,entrada
+2013-06-01,Saída Santos para Barcelona (Venda),transferencia,88400000.00,saida
+2013-07-01,Contrato Inicial Barcelona,contrato_profissional,5000000.00,entrada
+2016-07-01,Renovação de Contrato Barcelona,renovacao,9000000.00,entrada
+2017-08-03,Saída Barcelona para PSG (Multa Rescisória),transferencia,222000000.00,saida
+2017-08-15,Contrato Inicial PSG,contrato_profissional,30000000.00,entrada
+2021-05-01,Renovação de Contrato PSG,renovacao,36000000.00,entrada
+2023-08-15,Saída PSG para Al-Hilal (Venda),transferencia,90000000.00,saida
+2023-09-01,Contrato Inicial Al-Hilal,contrato_profissional,160000000.00,entrada
+2025-01-01,Saída Al-Hilal (Fim de Contrato),transferencia,0.00,saida
+2025-01-01,Contrato Santos (Novo Contrato),contrato_profissional,1500000.00,entrada

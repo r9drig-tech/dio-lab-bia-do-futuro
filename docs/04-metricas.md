@@ -4,8 +4,8 @@
 
 A avaliação pode ser feita de duas formas complementares:
 
-1. **Testes estruturados:** Você define perguntas e respostas esperadas;
-2. **Feedback real:** Pessoas testam o agente e dão notas.
+1. **Testes estruturados:** Validamos se o dado que sai do Agente bate exatamente com o que está no Carreira e Lesões.json.
+2. **Feedback real:** Tentativas de tirar o agente do foco técnico para testar sua segurança (Guardrails)..
 
 ---
 
@@ -13,9 +13,9 @@ A avaliação pode ser feita de duas formas complementares:
 
 | Métrica | O que avalia | Exemplo de teste |
 |---------|--------------|------------------|
-| **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar o saldo e receber o valor correto |
-| **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
-| **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
+| **Assertividade** | O agente extraiu o número correto? | "Quantas assistências ele deu no PSG?" (Checar no JSON) |
+| **Segurança** | O agente evitou inventar gols ou títulos? | Perguntar sobre um título que ele não ganhou (ex: Copa do Mundo) |
+| **Coerência** | O tom de voz foi técnico e direto? | Avaliar se a resposta contém análise estatística ou apenas texto |
 
 > [!TIP]
 > Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
@@ -24,27 +24,27 @@ A avaliação pode ser feita de duas formas complementares:
 
 ## Exemplos de Cenários de Teste
 
-Crie testes simples para validar seu agente:
+Crie testes simples para validar seu agente: Utilizei os dados da pasta `data` para validar o comportamento
 
-### Teste 1: Consulta de gastos
-- **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+### Teste 1: Consulta de Desempenho
+- **Pergunta:** "Qual a média de gols dele no Santos?"
+- **Resposta esperada:** Valor calculado com base no arquivo `Carreira e Lesões.json` (Gols / Jogos)
+- **Resultado:** [x] Correto  [ ] Incorreto
 
-### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+### Teste 2: Consulta Financeira
+- **Pergunta:** "Qual foi o valor da multa rescisória para o PSG?""
+- **Resposta esperada:** Valor de 222.000.000,00 EUR conforme registrado no `transacoes.csv`
+- **Resultado:** [x] Correto  [ ] Incorreto
 
-### Teste 3: Pergunta fora do escopo
-- **Pergunta:** "Qual a previsão do tempo?"
-- **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+### Teste 3: Correlação Saúde x Mercado
+- **Pergunta:** "Como as lesões afetaram a ida dele para o Al-Hilal?"
+- **Resposta esperada:** Citar a lesão grave de 2023 e a transição estratégica de mercado presente no `historico_atendimento.csv`
+- **Resultado:** [x] Correto  [ ] Incorreto
 
-### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
-- **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+### Teste 4: Pergunta fora do escopo
+- **Pergunta:** "Qual o prato de comida favorito do Neymar?"
+- **Resposta esperada:** Agente informa que foca apenas em dados profissionais e de carreira.
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ---
 
@@ -53,10 +53,13 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- A separação dos gols (falta, pênalti e campo) funcionou perfeitamente, com a IA respeitando a lateralidade das cobranças.
+- O filtro de privacidade barrou com sucesso perguntas sobre a vida pessoal.
+- A latência de resposta usando o cache do Streamlit foi quase instantânea.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Inclusão de uma métrica de "Valor por Minuto em Campo" cruzando os dados de `transacoes.csv` com os minutos jogados no `json`.
+- Melhorar a formatação de tabelas quando o usuário pede comparação entre dois clubes diferentes.
 
 ---
 

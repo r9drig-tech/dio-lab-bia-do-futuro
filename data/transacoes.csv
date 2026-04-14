@@ -1,12 +1,12 @@
 data,descricao,categoria,valor,tipo
-2009-01-01,Contrato Profissional Inicial (Santos),salario,1000000.00,entrada
-2011-11-09,Renovação Contrato Santos (Pré-Barça),salario,2000000.00,entrada
-2013-06-01,Transferência Santos para Barcelona,transferencia,88400000.00,entrada
-2013-07-01,Contrato Inicial Barcelona,salario,5000000.00,entrada
-2016-07-01,Renovação de Contrato Barcelona,salario,9000000.00,entrada
-2017-08-03,Transferência Barcelona para PSG,transferencia,222000000.00,entrada
-2017-08-15,Contrato Inicial PSG,salario,30000000.00,entrada
-2021-05-01,Renovação de Contrato PSG,salario,36000000.00,entrada
-2023-08-15,Transferência PSG para Al-Hilal,transferencia,90000000.00,entrada
-2023-09-01,Contrato Al-Hilal (Anual),salario,160000000.00,entrada
-2025-01-01,Retorno ao Santos (Salário Projetado),salario,1500000.00,entrada
+2009-01-01,Contrato Profissional Inicial (Santos),salario,1.000.000.00,entrada
+2011-11-09,Renovação Contrato Santos (Pré-Barça),salario,2.000.000.00,entrada
+2013-06-01,Transferência Santos para Barcelona,transferencia,88.400.000,00,entrada
+2013-07-01,Contrato Inicial Barcelona,salario,5.000.000.00,entrada
+2016-07-01,Renovação de Contrato Barcelona,salario,9.000.000.00,entrada
+2017-08-03,Transferência Barcelona para PSG,transferencia,222.000.000.00,entrada
+2017-08-15,Contrato Inicial PSG,salario,30.000.000.00,entrada
+2021-05-01,Renovação de Contrato PSG,salario,36.000.000.00,entrada
+2023-08-15,Transferência PSG para Al-Hilal,transferencia,90.000.000.00,entrada
+2023-09-01,Contrato Al-Hilal (Anual),salario,160.000.000.00,entrada
+2025-01-01,Retorno ao Santos (Salário Projetado),salario,1.500.000.00,entrada

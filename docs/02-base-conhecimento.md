@@ -7,9 +7,9 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
 | `historico_atendimento.csv` | CSV |Registra o log cronológico de negociações, renovações e propostas recusadas |
-| `carreira.json` | JSON | Contém a volumetria técnica: gols (falta, pênalti, campo), assistências e títulos por clube |
-| `premio.json` | JSON | Dados de scouting: origem dos gols de falta (esquerda, centro, direita) e histórico médico |
-| `transacoes.csv` | CSV | Analisa a evolução financeira: salários por período, multas rescisórias e valor de mercado (Market Value) |
+| `Carreira e Lesões.json` | JSON | Contém a volumetria técnica: gols (falta, pênalti, campo), assistências e histórico médico |
+| `Prêmio e Títulos.json` | JSON | Dados de Premios Individais e Titulos por clubes |
+| `transacoes.csv` | CSV | Analisa a evolução financeira: salários por período, multas rescisórias e valor de mercado |
 
 > [!TIP]
 > **Diferencial Estratégico**: Essa separação permite que o Agente diferencie valor de mercado (transacoes.csv) de eficiência técnica (carreira.json),

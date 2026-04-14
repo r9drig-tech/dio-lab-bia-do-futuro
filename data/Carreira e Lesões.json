@@ -14,17 +14,7 @@
       ]
     },
     "jogos": { "titular": 220, "reserva": 10, "amarelos": 58, "vermelhos": 3 },
-    "conquistas": [
-      "- Libertadores (2011)",
-      "- Copa do Brasil (2010)",
-      "- Recopa (2012)",
-      "- Paulista (2010, 2011, 2012)"
-    ],
-    "premios_individuais": [
-      "- Puskás Award (2011)",
-      "- Rei da América (2011, 2012)",
-      "- Artilheiro Paulista 2012 (20 gols)",
-      "- Bola de Bronze Mundial (2011)"
+  
     ],
     "recordes_e_marcos": [
       "- Vencedor do FIFA Puskás Award 2011 (Gol antológico contra o Flamengo na Vila Belmiro)",
@@ -52,19 +42,7 @@
       ]
     },
     "jogos": { "titular": 175, "reserva": 11, "amarelos": 42, "vermelhos": 1 },
-    "conquistas": [
-      "- Champions League (2015)",
-      "- Mundial de Clubes FIFA (2015)",
-      "- La Liga (2014-15, 2015-16)",
-      "- Copa del Rey (2014-15, 2015-16, 2016-17)",
-      "- Supercopa da Espanha (2013)"
-    ],
-    "premios_individuais": [
-      "- Artilheiro Champions (2015 - 10 gols)",
-      "- Artilheiro Copa del Rey (2015 - 7 gols)",
-      "- Equipe do Ano FIFA (2015, 2017)",
-      "- Samba Gold (2014, 2015)",
-      "- 3º Melhor Jogador do Mundo (Ballon d'Or 2015)"
+    
     ],
     "recordes_e_marcos": [
       "- Protagonista da 'Remontada' histórica na Champions 2016-17 contra o PSG",
@@ -95,16 +73,7 @@
       ]
     },
     "jogos": { "titular": 165, "reserva": 8, "amarelos": 48, "vermelhos": 4 },
-    "conquistas": [
-      "- Ligue 1 (2018, 2019, 2020, 2022, 2023)",
-      "- Copa da França (2018, 2020, 2021)"
-    ],
-    "premios_individuais": [
-      "- Melhor Jogador Ligue 1 2017-18",
-      "- Líder de Assistências Ligue 1 2017-18 (13 passes)",
-      "- Samba Gold (2017, 2020, 2021 e 2022)",
-      "- Equipe da Temporada da UEFA Champions League 2019-20",
-      "- 3º Melhor Jogador do Mundo (Ballon d'Or 2017)"
+  
     ],
     "recordes_e_marcos": [
       "- Transferência mais cara da história do futebol (€222M)",
@@ -125,7 +94,6 @@
       ]
     },
     "jogos": { "titular": 5, "reserva": 0, "amarelos": 1, "vermelhos": 0 },
-    "conquistas": [ "- Campeonato Saudita 2024", "- Supercopa Saudita 2024" ]
   },
   {
     "clube": "Santos FC",
@@ -141,7 +109,7 @@
     "tecnico": { "gol_carreira": 1, "ast_carreira": 0, "faltas": 0, "penalti": 0, "perna_dir": 1, "perna_esq": 0, "dribles_certos": "80%", "passes_certos": "75%" },
     "medico": { "lesoes": 0, "afastado": "0 dias", "historico": [ "- Sem lesões" ] },
     "jogos": { "titular": 3, "reserva": 0, "amarelos": 0, "vermelhos": 0 },
-    "conquistas": [ "Sem Título" ]
+
   },
   {
     "clube": "Seleção Brasileira Sub-20",
@@ -149,9 +117,6 @@
     "tecnico": { "gol_carreira": 9, "ast_carreira": 2, "faltas": 1, "penalti": 2, "perna_dir": 7, "perna_esq": 2, "dribles_certos": "85%", "passes_certos": "78%" },
     "medico": { "lesoes": 0, "afastado": "0 dias", "historico": [ "- Sem lesões" ] },
     "jogos": { "titular": 7, "reserva": 0, "amarelos": 1, "vermelhos": 0 },
-    "conquistas": [
-      "- Sul-Americano Sub-20 2011",
-      "- Artilheiro do Sul-Americano Sub-20 (9 gols) "
     ],
     "recordes_e_marcos": [
       "- Protagonista do título Sul-Americano com 9 gols em 7 jogos",
@@ -165,9 +130,6 @@
     "tecnico": { "gol_carreira": 11, "ast_carreira": 6, "faltas": 1, "penalti": 2, "perna_dir": 8, "perna_esq": 3, "dribles_certos": "88%", "passes_certos": "82%" },
     "medico": { "lesoes": 0, "afastado": "0 dias", "historico": [ "- Sem lesões" ] },
     "jogos": { "titular": 12, "reserva": 0, "amarelos": 2, "vermelhos": 0 },
-    "conquistas": [
-      "- Ouro Olímpico (Rio 2016)",
-      "- Prata Olímpica (Londres 2012)"
     ],
     "recordes_e_marcos": [
       "- Marcou o gol do 1º Ouro Olímpico da história do Brasil (Rio 2016)",
@@ -190,18 +152,6 @@
         "- Lesões musculares diversas em amistosos (2018/2019)"
       ]
     },
-    "conquistas": [
-      "- Copa das Confederações 2013",
-      "- Superclássico das Américas (2011, 2012, 2014, 2018)"
-    ],
-    "premios_individuais": [
-      "- Bola de Ouro Copa das Confederações 2013",
-      "- Chuteira de Bronze Copa das Confederações 2013",
-      "- 2x Man of the Match em Copas do Mundo 2014 (Croácia/Camarões)",
-      "- Man of the Match em Copas do Mundo 2018 (México)",
-      "- Man of the Match em Copas do Mundo 2022 (Coreia do Sul)",
-      "- Chuteira de Bronze Copa do Mundo 2014 (4 gols e 1 assistência)"
-    ],
     "recordes_e_marcos": [
       "- Maior artilheiro da história da Seleção Brasileira (79 Gols)",
       "- Maior Assistencia da história da Seleção (59 Assistência)",

@@ -1,5 +1,5 @@
- {
-            
+ [
+     {           
         "clube": "Santos FC",
         "periodo": "2009 - 2013",
         "tecnico": {"gol_carreira": 138, "ast_carreira": 65, "faltas": 5, "penalti": 22, "perna_dir": 110, "perna_esq": 18, "outros_gols": 10, "dribles_certos": "82%", "passes_certos": "79%"},

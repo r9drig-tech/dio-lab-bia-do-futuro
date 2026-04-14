@@ -1,8 +1,14 @@
 data,canal,tema,resumo,resolvido
-2006-03-01,reuniao,Proposta Real Madrid,Família e Santos decidiram recusar ida à Espanha aos 14 anos,sim
-2010-08-23,coletiva,Proposta Chelsea,Santos anunciou permanência do jogador após oferta inglesa,sim
-2011-11-09,reuniao,Renovação Santos,Contrato estendido para permanência até a Copa de 2014,sim
-2013-05-25,anuncio,Transferência Barcelona,Acordo oficializado para mudança para a Europa,sim
-2017-08-03,notificacao,Pagamento Multa PSG,Pagamento da cláusula de 222M realizado para saída do Barça,sim
-2023-08-15,anuncio,Transferência Al-Hilal,Fechamento do ciclo europeu e ida para a Arábia Saudita,sim
-2025-01-01,reuniao,Retorno ao Santos,Acerto de contrato para volta ao clube de origem,sim
+2006-03-01,reuniao,Recusa Real Madrid,Jogador recusou contrato aos 14 anos após testes na Espanha,sim
+2010-08-23,coletiva,Recusa Chelsea,Santos e Neymar anunciaram a recusa da proposta de 30M de euros,sim
+2011-06-15,reuniao,Recusa Real Madrid,Recusou proposta maior do Real para aguardar o Barcelona,sim
+2011-11-09,reuniao,Renovação Santos,Primeira grande renovação profissional para jogar o Mundial,sim
+2013-05-25,anuncio,Transferência Barcelona,Fechamento de contrato histórico com o clube catalão,sim
+2016-06-15,reuniao,Recusa Man. United,Recusou oferta da Premier League para renovar com o Barça,sim
+2016-07-01,reuniao,Renovação Barcelona,Extensão de contrato após conquista da Champions League,sim
+2017-08-03,notificacao,Transferência PSG,Pagamento de multa recorde e encerramento de ciclo no Barça,sim
+2019-08-30,reuniao,Recusa Barcelona,PSG barrou o retorno do jogador ao clube espanhol,sim
+2021-05-01,reuniao,Renovação PSG,Extensão do vínculo em Paris por mais quatro temporadas,sim
+2022-07-01,reuniao,Recusa Newcastle,Recusou projeto de novo rico da Inglaterra para seguir no PSG,sim
+2023-08-15,anuncio,Transferência Al-Hilal,Aceitou proposta recorde do futebol saudita,sim
+2025-01-01,reuniao,Retorno ao Santos,Reunião de acerto para volta à Vila Belmiro,sim

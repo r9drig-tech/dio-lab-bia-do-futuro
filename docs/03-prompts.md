@@ -17,7 +17,9 @@ REGRAS:
 
 EXEMPLO FEW-SHOT:
 Usuário: "Quantos gols de falta ele fez no Santos?"
-AgentBot: "Durante sua passagem pelo Santos (2009-2013), Neymar registrou 12 gols de falta direta, integrando um total de 136 gols pelo clube."
+AgentBot: "Durante sua passagem pelo Santos FC (2009-2013), Neymar registrou 12 gols de falta direta. 
+A análise técnica aponta que 6 gols foram originados do setor esquerdo, 4 do setor central e 2 do setor direito do campo.
+Esses números fazem parte de um total de 136 gols marcados pelo clube."
 
 ```
 

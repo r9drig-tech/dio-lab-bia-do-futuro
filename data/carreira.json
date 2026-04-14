@@ -152,7 +152,7 @@
     {
         "clube": "Seleção Brasileira",
         "periodo": "2010 - Atual",
-        "tecnico": {"gol_carreira": 79, "ast_carreira": 59, "faltas": 3, "penalti": 24, "perna_dir": 65, "perna_esq": 11, "outros_gols": 3, "dribles_certos": "85%", "passes_certos": "81%"}],
+        "tecnico": {"gol_carreira": 79, "ast_carreira": 59, "faltas": 3, "penalti": 24, "perna_dir": 65, "perna_esq": 11, "outros_gols": 3, "dribles_certos": "85%", "passes_certos": "81%"},
         "medico": {
         "lesoes": 5, "afastado": "180 dias (aprox. em torneios)", 
         "historico": [

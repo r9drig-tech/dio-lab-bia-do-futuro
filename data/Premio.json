@@ -1,0 +1,62 @@
+[
+  {
+    "clube": "Santos FC",
+    "titulos": {
+      "internacionais": ["Libertadores (2011)", "Recopa Sul-Americana (2012)"],
+      "nacionais": ["Copa do Brasil (2010)"],
+      "regionais": ["Campeonato Paulista (2010, 2011, 2012)"]
+    },
+    "premios_individuais": [
+      "FIFA Puskás Award (2011)",
+      "Rei da América (2011, 2012)",
+      "Melhor Jogador da Libertadores (2011)",
+      "Bola de Bronze Mundial de Clubes (2011)"
+    ]
+  },
+  {
+    "clube": "FC Barcelona",
+    "titulos": {
+      "internacionais": ["UEFA Champions League (2015)", "Mundial de Clubes da FIFA (2015)"],
+      "nacionais": ["La Liga (2015, 2016)", "Copa del Rey (2015, 2016, 2017)", "Supercopa da Espanha (2013)"]
+    },
+    "premios_individuais": [
+      "Artilheiro da Champions League (2015)",
+      "Equipe do Ano FIFA/FIFPro (2015, 2017)",
+      "Melhor Jogador do Mundo (3º lugar - 2015, 2017)"
+    ]
+  },
+  {
+    "clube": "Paris Saint-Germain",
+    "titulos": {
+      "nacionais": [
+        "Ligue 1 (2018, 2019, 2020, 2022, 2023)",
+        "Copa da França (2018, 2020, 2021)",
+        "Copa da Liga Francesa (2018, 2020)",
+        "Supercopa da França (2018, 2020, 2022)"
+      ]
+    },
+    "premios_individuais": [
+      "Melhor Jogador da Ligue 1 (2018)",
+      "Equipe da Temporada da Champions League (2020, 2021)",
+      "Samba de Ouro (Recordista)"
+    ]
+  },
+  {
+    "clube": "Al-Hilal",
+    "titulos": {
+      "nacionais": ["Campeonato Saudita (2024)", "Supercopa Saudita (2024)", "Copa do Rei Saudita (2024)"]
+    },
+    "premios_individuais": []
+  },
+  {
+    "clube": "Seleção Brasileira",
+    "titulos": {
+      "internacionais": ["Copa das Confederações (2013)", "Ouro Olímpico (2016)", "Sul-Americano Sub-20 (2011)"]
+    },
+    "premios_individuais": [
+      "Maior Artilheiro da História da Seleção (FIFA)",
+      "Bola de Ouro Copa das Confederações (2013)",
+      "Chuteira de Bronze Copa do Mundo (2014)"
+    ]
+  }
+]

@@ -1,121 +1,68 @@
-# 🤖 AgentBot Analytics — Consultor Inteligente de Carreira
+# 🤖 AgentBot Analytics — Neymar Jr. Career Consultant
 
-> Agente de IA Generativa especializado na trajetória profissional de **Neymar Jr.**, capaz de responder perguntas analíticas sobre clubes, estatísticas, títulos e transferências com base em dados estruturados e pipeline RAG.
+> O AgentBot Analytics é um agente de inteligência de dados especializado na trajetória profissional de Neymar Jr. Desenvolvido como projeto final para o Bootcamp GenIA e Dados da DIO, ele combina o poder da IA Generativa com uma curadoria rigorosa de dados estatísticos, médicos e contratuais.
 
----
+## 📌 Visão Geral
 
-## Contexto
+>Diferente de assistentes genéricos, este agente baseia-se em uma Base de Conhecimento Proprietária estruturada via Python. O foco principal foi a Engenharia do Dado: garantir que métricas de desempenho, histórico de lesões e títulos estivessem limpos e segmentados para evitar alucinações da IA.
 
-Agentes de IA Generativa estão redefinindo como interagimos com dados esportivos. O **AgentBot Analytics** vai além de um simples chatbot: ele atua como um **consultor especialista**, combinando recuperação semântica de informações com geração de linguagem natural para entregar respostas precisas, contextualizadas e confiáveis sobre a carreira do Neymar Jr.
+## 🏗️ Arquitetura e Estrutura do Repositório
 
----
+>O projeto foi organizado seguindo as melhores práticas de desenvolvimento, separando a camada de dados da camada de documentação técnica:
 
-## Arquitetura da Solução
-
-```mermaid
-flowchart LR
-    U([🙋 Usuário]) --> |pergunta| BOT[AgentBot Analytics]
-
-    BOT --> EMB[Embedding]
-    EMB --> VS[(Vector Store)]
-    KB[(Base Neymar Jr.)] --> VS
-    VS --> |contexto| LLM[LLM]
-    LLM --> |resposta| U
-```
-
----
-
-## Base de Conhecimento
-
-Os dados que alimentam o agente foram estruturados para cobrir toda a trajetória profissional do atleta:
-
-| Arquivo | Formato | Descrição |
-|---|---|---|
-| `Carreira e Lesões.json` | JSON |  Gols, assistências e jogos por temporada e competição|
-| `Prêmio e Títulos.json` | JSON | Conquistas por clube e seleção com datas |
-| `historico.csv` | CSV | Histórico em Copas do Mundo, Copa América e Olimpíadas |
-| `transacoes.cv` | JSON | Clubes, temporadas, contratos e transferências |
-
----
-
-## Estrutura do Repositório
+## 📁 Estrutura do Projeto
 
 ```
-📁 Desafio-GenIA-Dados-dio/
+_
+📁 agentbot-analytics-neymar/
 │
-├── 📄 README.md
+├── 📁 data/                          # O "Data Lake" do Agente (Fonte da Verdade)
+│   ├── transacoes.csv                # Histórico de transferências e valores de mercado
+│   ├── historico_atendimento.csv     # Registro de marcos contratuais e decisões de carreira
+│   ├── Carreira e Lesões.json        # Base estatística de performance e histórico médico
+│   └── Prêmio e Títulos.json         # Perfil de conquistas e fundamentos técnicos
 │
-├── 📁 data/                      # Base de conhecimento do agente
-│   ├── Carreira e Lesões.json
-│   ├── Premio e Títulos.json
-│   ├── historico.csv
-│   └── transacoes.json
+├── 📁 docs/                          # Documentação Técnica Completa
+│   ├── 01-documentacao-agente.md     # Persona, Arquitetura RAG e Casos de Uso
+│   ├── 02-base-conhecimento.md       # Estratégia de mapeamento e tratamento de dados
+│   ├── 03-prompts.md                 # Engenharia de Prompts e Guardrails
+│   └── 04-metricas.md                # Avaliação de assertividade (Anti-alucinação)
 │
-├── 📁 docs/                          # Documentação do projeto
-│   ├── 01-documentacao-agente.md     # Caso de uso e arquitetura
-│   ├── 02-base-conhecimento.md       # Estratégia de dados
-│   ├── 03-prompts.md                 # Engenharia de prompts
-│   ├── 04-metricas.md                # Avaliação e métricas
-│   └── 05-pitch.md                   # Roteiro do pitch
+├── 📁 src/                           # Código-fonte da Aplicação
+│   └── app.py                        # Protótipo interativo (Python + Streamlit)
 │
-├── 📁 src/                        # Código-fonte
-│   ├── app.py                     # Lógica principal do AgentBot
-│
-└── 📁 assets/                    # Diagramas e imagens
-│
-└──📁 examples/                      # Referências e exemplos
-    └── README.md
+└── 📁 assets/                        # Identidade Visual e Diagramas
 
 ```
 
----
+## 🛠️ Destaques Técnicos & Implementação
+Para entregar um consultor de alta fidelidade, foram aplicadas as seguintes camadas:
 
-## Ferramentas Utilizadas
+Granularidade de Dados Técnicos: Tratamento específico para métricas de passes, cruzamentos, faltas, gols de falta e dribles, organizados por clube.
+Segmentação de Títulos: Lógica personalizada para distinguir e contar conquistas de peso como Mundial de Clubes e Libertadores de forma individualizada.
+Inteligência Clínica: Mapeamento do histórico médico cruzado com a performance em campo (média de gols/jogos).
+RAG (Retrieval-Augmented Generation): O agente consulta as bases JSON/CSV antes de responder, garantindo precisão histórica.
 
-| Categoria | Ferramenta |
-|---|---|
-| **LLMs** | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) |
-| **Desenvolvimento** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/) |
-| **Processamento de Dados** | Pandas |
-| **Ambiente** | Google Colab / Jupyter Notebook |
-
----
-
-## Como Executar
+### 1. Instalar Ollama
 
 ```bash
-# Instalar dependências
-pip install -r requirements.txt
 
-# Rodar a aplicação
-streamlit run app.py
-```
-
----
-
-## Exemplos de Consultas
+Baixar em: ollama.com
+ollama pull "llama3"
+ollama serve
 
 ```
-"Quantos gols o Neymar marcou pelo Santos na sua carreira?"
-"Quais títulos ele conquistou no Barcelona?"
-"Qual foi o valor e o contexto da transferência para o PSG?"
-"Como foi o desempenho dele na Copa do Mundo de 2014?"
-"Compare as estatísticas do Neymar no Brasil e na Europa."
+
+### 2. Instalar Dependências
+
+```bash
+
+pip install streamlit pandas requests
 ```
 
----
+### 3. Rodar o Edu
 
-## Desafio DIO
+```bash
+streamlit run src/app.py
+```
 
-Projeto desenvolvido para o desafio **Gen IA & Dados**, com foco em:
-
-- Construção de pipelines RAG aplicados a dados reais
-- Engenharia de prompts para agentes especializados
-- Integração entre LLMs e bases de conhecimento estruturadas
-
----
-
-## Autor
-
-**Rodrigo** — [r9drig-tech](https://github.com/r9drig-tech) / [Linkedin](https://www.linkedin.com/in/r9drig-power-bi/)
-Analista de Power BI | Especialista em BI & Dashboards | Em transição para Engenharia de Dados & IA.
